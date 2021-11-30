@@ -1,0 +1,90 @@
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo
+$ git init
+Initialized empty Git repository in E:/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo/.git/
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git add .
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git commit -m "hello first"
+[master (root-commit) 540a8b1] hello first
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git remote add origin https://github.com/tekubaba/ProjectTwo.git
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git remote -v
+origin  https://github.com/tekubaba/ProjectTwo.git (fetch)
+origin  https://github.com/tekubaba/ProjectTwo.git (push)
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 220 bytes | 55.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/tekubaba/ProjectTwo/pull/new/master
+remote:
+To https://github.com/tekubaba/ProjectTwo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 597 bytes | 3.00 KiB/s, done.
+From https://github.com/tekubaba/ProjectTwo
+ * [new branch]      main       -> origin/main
+Already up to date.
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git brancg
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git branch
+* master
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git branch main
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git branch
+  main
+* master
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$ git pull origin master
+From https://github.com/tekubaba/ProjectTwo
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+TEKSAN@LAPTOP-ENIOBMAT MINGW64 /e/Academic Stuff/BSc CSIT/7th semester/Software project management/Practical/Git/ProjectTwo (master)
+$
